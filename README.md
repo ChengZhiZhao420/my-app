@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Setup nodes:
+(use yarn add if you are using yarn)
+- Dev dependencies 
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest 
+- Direct dependencies 
+npm install @craco/craco dayjs @tailwindcss/forms 
